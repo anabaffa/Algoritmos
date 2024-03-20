@@ -1,3 +1,5 @@
+Código executado no programa Visualg
+
 Algoritmo "primeiro"
 Var
 msg: caractere
@@ -5,4 +7,13 @@ Inicio
 msg <- "Olá, Mundo!"
 Escreval (msg)
 Escreva ("Me livrei da maldição")
+Fimalgoritmo
+
+Algoritmo "MeuNome"
+Var
+Nome: caractere
+Inicio
+Escreva ("Digite seu nome: ")
+Leia (Nome)
+Escreva ("Muito prazer ", Nome)
 Fimalgoritmo
