@@ -14,13 +14,13 @@ Fimalgoritmo
 
 Algoritmo "ParOuImpar"
 Var
-par, impar, numero: inteiro
+   par, impar, numero: inteiro
 Inicio
-Escreva ("Digite um número qualquer: ")
-Leia (numero)
-Se (numero % 2 = 0) então
- Escreval ("O número", numero, " é PAR")
-senão
- Escreva ("O número", numero, " é IMPAR")
-FimSe
+   Escreva ("Digite um número qualquer: ")
+   Leia (numero)
+   Se (numero % 2 = 0) então
+      Escreval ("O número", numero, " é PAR")
+   senão
+      Escreva ("O número", numero, " é IMPAR")
+   FimSe
 Fimalgoritmo
