@@ -1,0 +1,12 @@
+Algoritmo "Viagem"
+Var
+dinheiro: real
+Inicio
+Escreva ("Quanto de dinheiro guardado você possui para efetuar a viagem? ")
+Leia (dinheiro)
+Se (dinheiro >= 10000) então
+ Escreva ("Partiu Disney!")
+senão
+ Escreva ("Infelizmente terá que economizar mais")
+FimSe
+Fimalgoritmo
