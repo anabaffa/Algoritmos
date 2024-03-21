@@ -1,17 +1,3 @@
-Algoritmo "Viagem"
-Var
-dinheiro: real
-Inicio
-Escreva ("Quanto de dinheiro guardado você possui para efetuar a viagem? ")
-Leia (dinheiro)
-Se (dinheiro >= 10000) então
- Escreva ("Partiu Disney!")
-senão
- Escreva ("Infelizmente terá que economizar mais")
-FimSe
-Fimalgoritmo
-
-
 Algoritmo "ParOuImpar"
 Var
    par, impar, numero: inteiro
@@ -23,4 +9,22 @@ Inicio
    senão
       Escreva ("O número", numero, " é IMPAR")
    FimSe
+Fimalgoritmo
+
+
+Algoritmo "IMC"
+Var
+   peso, altura, imc: real
+Inicio
+      Escreva("Digite seu peso atual em Kg: ")
+      Leia (peso)
+      Escreva ("Sua altura em metros: ")
+      Leia (altura)
+      imc <- peso / (altura ^ 2)
+      Escreval ("IMC: ", imc:5:2)
+      se (imc >= 18.5) e (imc < 25) então
+         Escreva ("Você está no seu peso ideal")
+      senão
+           Escreva ("Você não está no peso ideal" 
+      FimSe
 Fimalgoritmo
