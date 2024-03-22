@@ -99,3 +99,35 @@ inicio
                      fimse
           fimse
 FimAlgoritmo
+
+
+
+
+
+Algoritmo "MelhorAluno"
+var
+Q, C: inteiro
+N, MelhorN : real
+A, MelhorA : caractere
+inicio
+      Escreval ("----------------------")
+      Escreval ("Escola Santa Paciencia")
+      Escreval ("----------------------")
+      Escreval ("Quantos alunos tem na turma? ")
+      Leia (Q)
+      C <- 1
+      Enquanto (C <= Q) faça
+               Escreval ("Nome do Aluno ", C, ": ")
+               Leia (A)
+               Escreval ("Nota de ", A)
+               Leia (N)
+               C <- C + 1
+                 se ( N > MelhorN) entao
+                   MelhorA <- A
+                   MelhorN <- N
+                 FimSe
+      FimEnquanto
+      EscrevaL ("------------------")
+      Escreval (" O ALUNO COM MELHOR DESEMPENHO FOI: ")
+      EscrevaL  (">>> ", MelhorA , " com nota : " , MelhorN)
+Fimalgoritmo
