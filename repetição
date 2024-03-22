@@ -70,3 +70,32 @@ Inicio
                C <- C + 1
       FimEnquanto
 Fimalgoritmo
+
+
+
+
+
+Algoritmo "ContagemInteligente"
+var
+      C, F: inteiro
+inicio
+      Escreval ("CONTAGEM INTELIGENTE")
+      Escreval ("--------------------")
+      Escreval ("Início: ")
+      Leia (C)
+      Escreval ("Final: ")
+      Leia (F)
+          se   (C < F) entao
+                   enquanto (C <= F) faca
+                            Escreva (C)
+                            C <- C + 1
+                   fimenquanto
+          senao
+                     se C  > F entao
+                        enquanto (C >= F) faca
+                        escreva  (C)
+                        C <- C - 1
+                     fimenquanto
+                     fimse
+          fimse
+FimAlgoritmo
