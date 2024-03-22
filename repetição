@@ -47,3 +47,26 @@ S <- 0
       FimEnquanto
       Escreva ("A soma de todos os valores foi: ", S)
 Fimalgoritmo
+
+
+
+
+
+
+
+Algoritmo "ContagemInteligente"
+Var
+ C, I, F: real
+Inicio
+      Escreval ("CONTAGEM INTELIGENTE")
+      Escreval ("--------------------")
+      Escreval ("Início: ")
+      Leia (I)
+      Escreval ("Final: ")
+      Leia (F)
+      C <- I
+      Enquanto (C <= F) faça
+               Escreval (C)
+               C <- C + 1
+      FimEnquanto
+Fimalgoritmo
